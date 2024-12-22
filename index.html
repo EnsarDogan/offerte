@@ -1,0 +1,2189 @@
+<!DOCTYPE html><html lang="en"><head>
+        <script>
+    var BASE_URL = 'https\u003A\u002F\u002Fvlaggenactie.nl\u002F';
+    var require = {
+        'baseUrl': 'https\u003A\u002F\u002Fvlaggenactie.nl\u002Fpub\u002Fstatic\u002Ffrontend\u002FSm\u002Fmarket\u002Fen_US'
+    };</script>        <meta charset="utf-8">
+<meta name="title" content="Offerte">
+<meta name="description" content="Default Description">
+<meta name="keywords" content="Magento, Varien, E-commerce">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="" content="default-src 'self';font-src fonts.gstatic.com;style-src 'self' fonts.googleapis.com">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Offerte</title>
+<link rel="stylesheet" type="text/css" media="all" href="css/calendar.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/styles-m.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/ytextend.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/yttheme.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/css-fix.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/newcheckout13.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/blog-m.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/blog-custom.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="css/styles-l.css">
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<script type="text/javascript" src="js/require.js"></script>
+<script type="text/javascript" src="js/mixins.js"></script>
+<script type="text/javascript" src="js/requirejs-config.js"></script>
+<script type="text/javascript" src="js/checkout89.js"></script>
+        <!-- BEGIN GOOGLE ANALYTICS CODE -->
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_GoogleAnalytics/js/google-analytics": {
+            "isCookieRestrictionModeEnabled": 0,
+            "currentWebsite": 1,
+            "cookieName": "user_allowed_save_cookie",
+            "ordersTrackingData": [],
+            "pageTrackingData": {"optPageUrl":"","isAnonymizedIpActive":false,"accountId":"G-DGJ8PYV8XZ"}        }
+    }
+}
+</script>
+<!-- END GOOGLE ANALYTICS CODE -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+<link rel="stylesheet" href="css/config_mauritius.css">
+
+<!--CUSTOM CSS-->
+<style>
+    .block-minicart
+{
+  z-index:9999 !important;
+}
+a .action-edit
+{
+    display:none !important;
+}
+a .action-towishlist
+{
+   display:none !important;
+}</style>
+
+<script>
+    require([
+        'jquery',
+        'jquerypopper',
+        'jquerybootstrap',
+        'jqueryunveil',
+        'yttheme',
+        'domReady!'
+    ], function ($, Popper) {
+                function _runLazyLoad() {
+            $("img.lazyload").unveil(0, function () {
+                $(this).load(function () {
+                    this.classList.remove("lazyload");
+                });
+            });
+        }
+
+        _runLazyLoad();
+        $(document).on("afterAjaxLazyLoad", function (event) {
+            _runLazyLoad();
+        });
+
+            });
+</script>
+
+
+<!--CUSTOM JS-->
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'domReady!'
+    ], function ($) {
+        if ($('.breadcrumbs').length == 0) {
+            $('body').addClass("no-breadcrumbs");
+        }
+    });
+
+</script>
+
+<!--LISTING CONFIG-->
+<style>
+
+        {
+        font-family:
+    Poppins    ;
+    }
+
+    @media (min-width: 1200px) {
+
+        .container {
+            width: 1170px;
+            max-width: 1170px;
+        }
+
+        /*==1 COLUMN==*/
+    
+        .col1-layout .category-product.products-grid .item {
+            width: 25%;
+        }
+
+        .col1-layout .category-product.products-grid .item:nth-child(4n+1) {
+            clear: both;
+        }
+
+        /*==2 COLUMNS==*/
+    
+        .col2-layout .category-product.products-grid .item {
+            width: 33.333333333333%;
+        }
+
+        .col2-layout .category-product.products-grid .item:nth-child(3n+1) {
+            clear: both;
+        }
+
+        /*==3 COLUMNS==*/
+    
+        .col3-layout .category-product.products-grid .item {
+            width: 50%;
+        }
+
+        .col3-layout .category-product.products-grid .item:nth-child(2n+1) {
+            clear: both;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+        /*==1 COLUMN==*/
+    
+        .col1-layout .category-product.products-grid .item {
+            width: 25%;
+        }
+
+        .col1-layout .category-product.products-grid .item:nth-child(4n+1) {
+            clear: both;
+        }
+
+        /*==2 COLUMNS==*/
+    
+        .col2-layout .category-product.products-grid .item {
+            width: 33.333333333333%;
+        }
+
+        .col2-layout .category-product.products-grid .item:nth-child(3n+1) {
+            clear: both;
+        }
+
+        /*==3 COLUMNS==*/
+    
+        .col3-layout .category-product.products-grid .item {
+            width: 100%;
+        }
+
+        .col3-layout .category-product.products-grid .item:nth-child(1n+1) {
+            clear: both;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+
+        /*==1 COLUMN==*/
+    
+        .col1-layout .category-product.products-grid .item {
+            width: 33.333333333333%;
+        }
+
+        .col1-layout .category-product.products-grid .item:nth-child(3n+1) {
+            clear: both;
+        }
+
+        /*==2 COLUMNS==*/
+    
+        .col2-layout .category-product.products-grid .item {
+            width: 33.333333333333%;
+        }
+
+        .col2-layout .category-product.products-grid .item:nth-child(3n+1) {
+            clear: both;
+        }
+
+        /*==3 COLUMNS==*/
+    
+        .col3-layout .category-product.products-grid .item {
+            width: 100%;
+        }
+
+        .col3-layout .category-product.products-grid .item:nth-child(1n+1) {
+            clear: both;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+        /*==1 COLUMN==*/
+    
+        .col1-layout .category-product.products-grid .item {
+            width: 50%;
+        }
+
+        .col1-layout .category-product.products-grid .item:nth-child(2n+1) {
+            clear: both;
+        }
+
+        /*==2 COLUMNS==*/
+    
+        .col2-layout .category-product.products-grid .item {
+            width: 50%;
+        }
+
+        .col2-layout .category-product.products-grid .item:nth-child(2n+1) {
+            clear: both;
+        }
+
+        /*==3 COLUMNS==*/
+    
+        .col3-layout .category-product.products-grid .item {
+            width: 100%;
+        }
+
+        .col3-layout .category-product.products-grid .item:nth-child(1n+1) {
+            clear: both;
+        }
+    }
+
+    @media (max-width: 480px) {
+
+        /*==1 COLUMN==*/
+    
+        .col1-layout .category-product.products-grid .item {
+            width: 100%;
+        }
+
+        .col1-layout .category-product.products-grid .item:nth-child(1n+1) {
+            clear: both;
+        }
+
+        /*==2 COLUMNS==*/
+    
+        .col2-layout .category-product.products-grid .item {
+            width: 100%;
+        }
+
+        .col2-layout .category-product.products-grid .item:nth-child(1n+1) {
+            clear: both;
+        }
+
+        /*==3 COLUMNS==*/
+    
+        .col3-layout .category-product.products-grid .item {
+            width: 100%;
+        }
+
+        .col3-layout .category-product.products-grid .item:nth-child(1n+1) {
+            clear: both;
+        }
+    }
+
+</style>
+    </head>
+    <body data-container="body" data-mage-init="{" loaderajax":="" {},="" "loader":="" {="" "icon":="" "https:="" vlaggenactie.nl="" pub="" static="" frontend="" sm="" market="" en_us="" images="" loader-2.gif"}}"="" class="header-16-style home-16-style footer-9-style product-2-style layout-full_width  offerte-index-index page-layout-1column">
+        
+
+<div id="cookie-status" style="display: none;">
+    The store will not work correctly in the case when cookies are disabled.</div>
+<script type="text/javascript">document.querySelector("#cookie-status").style.display = "none";</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "cookieStatus": {}
+        }
+    }
+</script>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "mage/cookies": {
+                "expires": null,
+                "path": "\u002F",
+                "domain": ".vlaggenactie.nl",
+                "secure": false,
+                "lifetime": "86400"
+            }
+        }
+    }
+</script>
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong>
+                    <span>
+                        For the best experience on our site, be sure to turn on Javascript in your browser.                    </span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script>true</script><script>    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });</script>
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-T4C3S2KL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+
+<script type="text/x-magento-init">
+    {"*":{"yireoGoogleTagManager":{"cookie_restriction_mode":"","attributes":{"pageType":"offerte\/index\/index"},"id":"GTM-T4C3S2KL","debug":false}}}
+</script>
+<div class="page-wrapper">
+<input type="hidden" id="inp_site_type" value="perakende">
+<input type="hidden" id="inp_customerid" value=""><input type="hidden" id="inp_customeremail" value=""><input type="hidden" id="inp_billing_country" value=""><input type="hidden" id="inp_shipping_country" value=""><input type="hidden" id="inp_shipping_postcode" value=""><input type="hidden" id="inp_shipping_day" value=""><input type="hidden" id="inp_shipping_date" value=""><input type="hidden" id="inp_shipping_daycount" value="">
+
+<input type="hidden" id="inp_knm_json">
+<input type="hidden" id="inp_edit_address">
+
+
+<link rel="stylesheet" href="css/intlTelInput.css">
+<!-- bewwaren_voor_later customer uyari begin -->
+
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="myModal_customer_uyari_btn" style="display:none" data-target="#myModal_customer_uyari"></button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal_customer_uyari" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" id="myModal_customer_uyari_close_btn" data-dismiss="modal">×</button>
+         
+        </div>
+        <div class="modal-body" style="text-align:center">
+          <p style="font-size:15px;font-weight:600">Om uw winkelwagen voor later te bewaren, moet u eerst inloggen of een account aanmaken.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+<!-- bewwaren_voor_later customer uyari end -->
+
+<!-- bewaren_voor_later_modal begin -->
+  <button type="button" style="display:none" class="btn btn-info btn-lg" data-toggle="modal" id="bewaren_voor_later_modal_btn" data-target="#bewaren_voor_later_modal"></button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="bewaren_voor_later_modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" id="bewaren_voor_later_modal_close_btn" data-dismiss="modal">×</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <input type="text" placeholder="Enter reference" id="inp_bewaren_voor_later_modal_reference">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" style="width: 100%;
+background-color: #f60 !important;
+color: #fff !important;
+text-transform: none;
+font-size: 15px !important;
+border-radius: 6px;
+-webkit-border-radius: 6px;
+" onclick="save_for_later_modal()">Bewaren voor later</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-- bewaren_voor_later_modal end -->
+
+
+<!-- customer new address begin -->
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" style="display:none" data-target="#myModalcustomer_new" id="myModalcustomer_new_btn"></button>
+
+  <!-- Standaard Bezorgadres -->
+  <div class="modal fade show" id="myModalcustomer_new" role="dialog" style="padding-right: 15px;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div><h4 class="modal-title">Nieuw Adres</h4></div>
+          <div>
+            <button style="display:none" type="button" class="close" data-dismiss="modal" id="btn_close_myModalcustomer_new">×</button>
+            <button type="button" data-dismiss="modal" class="close">×</button></div>
+          
+          
+        </div>
+        <div class="modal-body">
+          <div class="  mb-4">
+    
+    
+      <div class="card-body">
+        <form>
+        
+           <div class="form-outline mb-4" style="display: flex; flex-direction: column">
+            <label class="form-label" for="customer_new_item_country_id">Land</label>
+            <input id="customer_new_countryPhone" class="countryPhone10 w-100 country" name="telefon" type="tel" onkeyup="return false;" onkeydown="return false;" autocomplete="false">
+            
+          </div> 
+          
+          <div class="form-outline mb-4" id="customer_new_div_item_street" style="display:none">
+            <label class="form-label" for="customer_new_item_street">Straatnaam</label>
+            <input type="text" id="customer_new_item_street" class="form-control">
+          </div>
+          
+         
+         <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0; padding: 0 5px 0 0" id="customer_new_div_item_postalcode">
+            <label class="form-label" for="customer_new_item_postalcode">Postcode</label>
+            <input type="text" id="customer_new_item_postalcode" onkeyup="get_address_by_post_code_(9)" class="form-control" autocomplete="off">
+          </div> 
+          
+          <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0; padding: 0 5px 0 0" id="customer_new_div_item_housenumber">
+            <label class="form-label" for="customer_new_item_housenumber" style="float:left;margin-left:0; padding: 0 0 0 0">Huisnummer</label>
+            <input type="text" id="customer_new_item_housenumber" class="form-control" onkeyup="get_address_by_post_code_(9)" autocomplete="off">
+          </div>
+          
+          <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0; padding: 0 0 0 0" id="customer_new_div_item_toevoeging">
+            <label class="form-label" for="customer_new_item_toevoeging" style="float:left;margin-left:0">Toevoeging</label>
+            <input type="text" id="customer_new_item_toevoeging" class="form-control">
+          </div>
+          
+           <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0;display:none" id="customer_new_div_item_city">
+            <label class="form-label" for="customer_new_item_city" style="float:left;margin-left:0">Plaatsnaam</label>
+            <input type="text" id="customer_new_item_city" class="form-control">
+          </div>
+      
+            <div style="text-align:center;clear:both;color: rgb(255,128,35)">
+                  <a id="customer_new_a_address" style="display: none;padding: 6px 20px; border-radius:5px;box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%); 
+                  -webkit-box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%);"></a> <br>
+           
+                <a style="text-decoration:underline;cursor:pointer; color: rgb(255,128,35); font-weight: 400 !important;" onclick="show_other_addres_items(9)" id="customer_new_div_handmatig">Address handmatig invoeren</a></div>
+          
+              <!-- Text input -->
+          <div class="form-outline mb-4" style="clear:both">
+           <label class="form-label" for="customer_new_item_company">Bedrijfsnaam</label>
+            <input type="text" id="customer_new_item_company" class="form-control">
+           
+          </div>
+          
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col" style="padding: 0 0 0 16px;">
+              <div class="form-outline">
+              <label class="form-label" for="customer_new_item_firstname">Voornaam</label>
+                <input type="text" id="customer_new_item_firstname" class="form-control">
+                
+              </div>
+            </div>
+            <div class="col" style="padding: 0 17px 0 5px;">
+              <div class="form-outline">
+              <label class="form-label" for="customer_new_item_lastname">Achternaam</label>
+                <input type="text" id="customer_new_item_lastname" class="form-control">
+                
+              </div>
+            </div>
+          </div>
+
+          
+  
+
+          <!-- Number input -->
+          <div class="form-outline mb-4">
+            <label class="form-label d-flex" for="customer_new_item_phone">Telefoonnummer <div style="width:22px;margin-left: 10px;">
+                    <img src="images/i.svg" title="Tooltip on top"></div></label>
+            <input type="text" id="customer_new_item_phone" class="form-control">
+            
+          </div>
+
+        </form>
+      </div>
+
+
+        </div>
+        
+        
+        
+        <div class="modal-footer" style="margin-top: 5px">
+          <button type="button" class="btn btn-success btn-block" onclick="customer_new_save_address()" style="width:100%; background-color: rgb(255,128,35)">Opslaan</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- customer new address end -->
+
+<!-- customer edit address begin -->
+
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" style="display:none" data-target="#myModalcustomer_edit_address" id="myModalcustomer_edit_address_btn"></button>
+
+  <!-- Standaard Bezorgadres -->
+  <div class="modal fade show" id="myModalcustomer_edit_address" role="dialog" style="padding-right: 15px;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div><h4 class="modal-title">Edit Adres</h4></div>
+          <div>
+            <button style="display:none" type="button" class="close" data-dismiss="modal" id="btn_close_myModalcustomer_new">×</button>
+            <button type="button" data-dismiss="modal" class="close">×</button></div>
+          
+          
+        </div>
+        <div class="modal-body">
+          <div class="  mb-4">
+    
+    
+      <div class="card-body">
+        <form>
+        
+           <div class="form-outline mb-4" style="display: flex; flex-direction: column">
+            <label class="form-label" for="customer_edit_item_country_id">Land</label>
+            <input id="customer_edit_countryPhone" class="countryPhone11 w-100 country" name="telefon" type="tel" onkeyup="return false;" onkeydown="return false;" autocomplete="false">
+            
+          </div> 
+          
+          <div class="form-outline mb-4" id="customer_edit_div_item_street" style="display:none">
+            <label class="form-label" for="customer_edit_item_street">Straatnaam</label>
+            <input type="text" id="customer_edit_item_street" class="form-control">
+          </div>
+          
+         
+         <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0; padding: 0 5px 0 0" id="customer_edit_div_item_postalcode">
+            <label class="form-label" for="customer_edit_item_postalcode">Postcode</label>
+            <input type="text" id="customer_edit_item_postalcode" onkeyup="get_address_by_post_code_(10)" class="form-control" autocomplete="off">
+          </div> 
+          
+          
+          
+          
+          <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0; padding: 0 5px 0 0" id="customer_edit_div_item_housenumber">
+            <label class="form-label" for="customer_edit_item_housenumber" style="float:left;margin-left:0; padding: 0 0 0 0">Huisnummer</label>
+            <input type="text" id="customer_edit_item_housenumber" class="form-control" onkeyup="get_address_by_post_code_(10)" autocomplete="off">
+          </div>
+          
+          <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0; padding: 0 0 0 0" id="customer_edit_div_item_toevoeging">
+            <label class="form-label" for="customer_edit_item_toevoeging" style="float:left;margin-left:0">Toevoeging</label>
+            <input type="text" id="customer_edit_item_toevoeging" class="form-control">
+          </div>
+          
+           <div class="form-outline mb-4 col-md-4" style="float:left;margin-left:0;display:none" id="customer_edit_div_item_city">
+            <label class="form-label" for="customer_edit_item_city" style="float:left;margin-left:0">Plaatsnaam</label>
+            <input type="text" id="customer_edit_item_city" class="form-control">
+          </div>
+      
+            <div style="text-align:center;clear:both;color: rgb(255,128,35)">
+                  <a id="customer_edit_a_address" style="padding: 6px 20px; border-radius:5px;box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%); 
+                  -webkit-box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%);"></a> <br>
+           
+                <a style="display:none;text-decoration:underline;cursor:pointer; color: rgb(255,128,35); font-weight: 400 !important;" onclick="show_other_addres_items(10)" id="customer_edit_div_handmatig">Address handmatig invoeren</a></div>
+          
+              <!-- Text input -->
+          <div class="form-outline mb-4" style="clear:both">
+           <label class="form-label" for="customer_edit_item_company">Bedrijfsnaam</label>
+            <input type="text" id="customer_edit_item_company" class="form-control">
+           
+          </div>
+          
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col" style="padding: 0 0 0 16px;">
+              <div class="form-outline">
+              <label class="form-label" for="customer_edit_item_firstname">Voornaam</label>
+                <input type="text" id="customer_edit_item_firstname" class="form-control">
+                
+              </div>
+            </div>
+            <div class="col" style="padding: 0 17px 0 5px;">
+              <div class="form-outline">
+              <label class="form-label" for="customer_edit_item_lastname">Achternaam</label>
+                <input type="text" id="customer_edit_item_lastname" class="form-control">
+                
+              </div>
+            </div>
+          </div>
+
+          
+  
+
+          <!-- Number input -->
+          <div class="form-outline mb-4">
+            <label class="form-label d-flex" for="customer_edit_item_phone">Telefoonnummer <div style="width:22px;margin-left: 10px;">
+                    <img src="images/i.svg" title="Tooltip on top"></div></label>
+            <input type="text" id="customer_edit_item_phone" class="form-control">
+            
+          </div>
+          
+          <div class="form-outline mb-4">
+            <input type="checkbox" id="customer_edit_item_billingaddress" name="customer_edit_item_billingaddress">
+            <label for="customer_edit_item_billingaddress">Default Billing Address</label>
+            
+          </div>
+          
+          <div class="form-outline mb-4">
+            <input type="checkbox" id="customer_edit_item_shippingaddress" name="customer_edit_item_shippingaddress">
+            <label for="customer_edit_item_shippingaddress">Default Shipping Address</label>
+            
+          </div>
+          
+          
+
+        </form>
+      </div>
+
+
+        </div>
+        
+        
+        
+        <div class="modal-footer" style="margin-top: 5px">
+          <button type="button" class="btn btn-success btn-block" onclick="customer_edit_save_address()" style="width:100%; background-color: rgb(255,128,35)">Opslaan</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- customer edit address end -->
+<script>
+  //control_payment_error();
+  
+
+
+function control_payment_error()
+{
+    var link = window.location.href;
+    if (link == location.origin + "/checkout/cart/")
+    {
+      window.location.href = location.origin + "/checkout/?err=poserr#shipping";
+    }
+    if (link == location.origin + "/checkout/cart/#shipping")
+    {
+      //alert("control payment");
+    }
+}
+
+setTimeout(show_paymenterror_popup,500);
+
+function show_paymenterror_popup()
+{
+  var link = window.location.href;
+  if (link == location.origin + "/checkout/?err=poserr#shipping")
+  {
+        document.getElementById("btn_myModalPaymentError").click();
+  }
+}
+
+</script> 
+
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalPaymentError" id="btn_myModalPaymentError" style="display:none"></button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModalPaymentError" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <h3>Betaling geannuleerd, probeer opnieuw.</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" style="background-color:#f60 !important;border-radius:5px;-webkit-border-radius:5px;
+          color:#fff !important;
+          " data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  
+  
+  
+  <button type="button" id="btn_customer_register_modal" class="btn btn-primary" data-toggle="modal" data-target="#customer_register_modal" style="display:none">
+
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="customer_register_modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="border-radius:10px;-webkit-border-radius:10px;padding:20px">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title" style="color:rgb(255,128,35) !important;;">Nieuw Account</h3>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="padding:20px">
+            <div class="form-group form_half_left">
+              <label for="customer_register_firstname">Voornaam*</label>
+              <input type="text" class="form-control" id="customer_register_firstname">
+              <div for="customer_register_firstname" class="error1" id="customer_register_firstname_error">Dit is een verplicht veld.</div>
+            </div>
+            <div class="form-group form_half_right">
+              <label for="customer_register_lastname">Achternaam*</label>
+              <input type="text" class="form-control" id="customer_register_lastname">
+              <div for="ajaxlogin-customer_register_lastname" class="error1" id="customer_register_lastname_error">Dit is een verplicht veld.</div>
+              
+            </div>
+            
+            <div class="form-group form_half_left">
+              <label for="customer_register_telephone">Telefoon Nummer*</label>
+              <input type="text" class="form-control" id="customer_register_telephone">
+              <div for="customer_register_telephone" class="error1" id="customer_register_telephone_error">Dit is een verplicht veld.</div>
+            </div>
+            
+            <div class="form-group form_half_right">
+              <label for="customer_register_order_email_adres">Order E-mail Adres*</label>
+              <input type="text" class="form-control" id="customer_register_order_email_adres">
+              <div for="ajaxlogin-customer_register_order_email_adres" class="error1" id="customer_register_order_email_adres_error">Dit is een verplicht veld.</div>
+            </div>
+            
+            
+            <div class="form-group form_half_left">
+              <label for="customer_register_company">Bedrijf</label>
+              <input type="text" class="form-control" id="customer_register_company">
+            </div>
+            
+            <div class="form-group form_half_right">
+              <label for="customer_register_invoice_email_adres">Factuur E-mail Adres</label>
+              <input type="text" class="form-control" id="customer_register_invoice_email_adres">
+            </div>
+            
+            <div class="form-group form_half_left">
+              <label for="customer_register_kvk">KVK-nummer</label>
+              <input type="text" class="form-control" id="customer_register_kvk">
+            </div>
+            
+            <div class="form-group form_half_right">
+              <label for="customer_register_btw">BTW-nummer</label>
+              <input type="text" class="form-control" id="customer_register_btw">
+            </div>
+            
+            
+            
+            
+            <div class="form-group form_half_left">
+              <label for="customer_register_contact_person" class="form_bottom">Contact Person</label>
+              <input type="text" class="form-control" id="customer_register_contact_person">
+            </div>
+            
+            <div class="form_half_right">
+                <div class="form-group form_half_left">
+              <label for="customer_register_onderneming">Wat de jouw onderneming</label>
+                <select id="customer_register_onderneming" name="customer_register_onderneming" class="form-control required-entry" aria-required="true">
+                    <option value="0">Klik hier</option>
+                    <option value="1">Beurs &amp; evenement</option>
+                    <option value="2">Communicatiebureau / reclamebureau</option>
+                    <option value="3">Signmaker</option>
+                    <option value="4">Drukkerij/copyshop</option>
+                    <option value="5">Webshop</option>
+                    <option value="6">Fotograaf/artistiek</option>
+                    <option value="7">Architect</option>
+                    <option value="8">Interieur &amp; textiel</option>
+                    <option value="9">Online marketingbureau</option>
+                    <option value="10">Grafisch vormgever</option>
+                    <option value="11">Ik zit op school</option>
+                    <option value="12">Anders</option>                    
+                </select>
+            </div>
+            
+            <div class="form-group form_half_right">
+              <label for="customer_register_medewerkers" class="form_bottom">Aantal medewerkers</label>
+              <select id="customer_register_medewerkers" name="register_medewerkers" class="form-control required-entry" aria-required="true">
+                    <option value="0">Klik hier</option>
+                    <option value="1">1</option>
+                    <option value="2">2-5</option>
+                    <option value="3">6-10</option>
+                    <option value="4">11-20</option>
+                    <option value="5">21-50</option>
+                    <option value="6">51+</option>                    
+                </select>
+            </div>
+            </div>
+            
+            
+            <div class="form-group form_half_left">
+              <label for="customer_register_website" class="form_bottom">Website</label>
+              <input type="text" class="form-control" id="customer_register_website">
+            </div>
+            
+            
+            <div class="form_half_right">
+            <div class="form-group form_half_left">
+              <label for="customer_register_functie" class="form_bottom">Jouw functie</label>
+              
+              <select id="customer_register_functie" name="customer_register_functie" class="form-control required-entry" aria-required="true">
+                    <option value="0">Klik hier</option>
+                    <option value="1">Accountmanager</option>
+                    <option value="2">Sales/servicemedewerker</option>
+                    <option value="3">Projectmanager</option>
+                    <option value="4">Eigenaar/directeur</option>
+                    <option value="5">DTP/vormgever</option>
+                    <option value="6">Art director</option>
+                    <option value="7">Fotograaf</option>
+                    <option value="8">Signmonteur</option>
+                    <option value="9">(Online) communicatiemedewerker</option>
+                    <option value="10">Ik ben student</option>
+                    <option value="11">Anders</option>                    
+                </select>
+            </div>
+            
+            <div class="form-group form_half_right">
+              <label for="customer_register_vraag">Hoe heb je vlaggenactie gevonden?</label>
+              <select id="customer_register_vraag" name="customer_register_vraag" class="form-control required-entry" aria-required="true">
+                     <option value="0">Klik hier</option>
+                    <option value="1">Mond tot mond reclame</option>
+                    <option value="2">Gevonden via het internet</option>
+                    <option value="3">Gezien op social media</option>
+                    <option value="4">Gezien in vakblad</option>
+                    <option value="5">Via sponsoring van een evenement</option>
+                    <option value="6">Gezien in de media (krant,tv)</option>
+                    <option value="7">Via een beurs</option>
+                    <option value="8">Acquisitie</option>
+                    <option value="9">Anders</option>
+                    </select>
+            </div>
+            
+            </div>
+     
+     <div style="clear:both">      
+        <input type="checkbox" id="chk_1" name="chk_1">
+        <label for="chk_1">Ik accepteer de algemene voorwaaren van vlaggenactie. (Algemene voorwaarden)</label>
+        <div for="chk_1" class="error1" id="chk_1_error">Dit is een verplicht veld.</div>
+        <br>
+        <input type="checkbox" id="chk_2" name="chk_2">
+        <label for="chk_2">Schrijf je in op onze nieuwsbrief</label>
+      </div>       
+        <div id="div_register_result"></div>    
+            
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="make_an_account(this)" style="width:100%;text-transform:inherit;
+          background-color:rgb(255,128,35) !important;;font-size:1.6rem !important;
+          border-radius:5px;-webkit-border-radius:5px
+          
+          ">Maak een account aan</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <button type="button" id="btn_customer_forgetmail_modal" class="btn btn-primary" data-toggle="modal" data-target="#customer_forget_modal" style="display:none">
+
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="customer_forget_modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="border-radius:10px;-webkit-border-radius:10px;padding:20px">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h3 class="modal-title" style="color:rgb(255,128,35) !important;;"> Wachtwoord vergeten?</h3>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="padding:20px">
+          
+          <div class="message-success success message" style="display:none" id="div_success">
+            <div data-bind="">Als er een account is met <a id="success_email"></a> dan zal je een email krijgen.</div>
+        </div>
+        
+        
+           <div class="form-group">
+              <label for="customer_forget_email" class="form_bottom" style="    font-size: 1.4rem !important;font-weight:500">Email *</label>
+              <input type="text" class="form-control" id="customer_forget_email" style="height: 42px;
+    font-size: 100%;
+    line-height: 1.66;
+    background-color: #fff;
+    color: #666;
+    -webkit-box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%) !important;
+    box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%) !important;
+    border-radius: 5px;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;">
+              
+              <div for="email_address" generated="true" class="mage-error" id="email_address-error" style="display:none">Voer een geldig e-mailadres in (Ex: johndoe@domain.com).</div>
+            </div>
+        <div id="div_forgetmail_result"></div>    
+            
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="send_forget_mail2()" style="width:100%;text-transform:inherit;
+          background-color:rgb(255,128,35) !important;;font-size:1.6rem !important;
+          border-radius:5px;-webkit-border-radius:5px
+          
+          ">wachtwoord opnieuw instellen</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<input type="hidden" id="api_link" value="https://api.vlaggenactie.nl/">
+<input type="hidden" id="inp_start_date" value="">
+<input type="hidden" id="inp_show_shipping" value="0">
+
+
+
+
+
+<div id="div_top_message" style="width:100%;padding:20px;background-color:red;color:#fff">
+    <!--<center style="color:#fff;font-size:14px">17 mei 2024 zijn we vanaf 14.00 uur gesloten wegens bedrijsuitje!</center>-->
+    <center style="color:#fff;font-size:14px">İn de maand december zal de levering mogelijk vertraging oplopen, ivm drukte bij de transport bedrijven.
+Houd hier rekening mee bij bestelling.</center>
+    </div>
+
+
+<div id="div_top" onclick="closeNav()"></div>
+<div class="header-container header-style-16">
+    <div class="header-top">
+        <div class="container">
+            <div class="row row-topheader">
+                <div class="col-lg-4 language-currency">
+                    <div class="language-wrapper">
+</div>                    <div class="currency-wrapper">                <div class="switcher currency switcher-currency" id="switcher-currency-nav">
+        <strong class="label switcher-label"><span>Currency</span></strong>
+        <div class="actions dropdown options switcher-options">
+            <div class="action toggle switcher-trigger" id="switcher-currency-trigger-nav">
+                <strong class="language-EUR">
+                    <span>EUR</span>
+                </strong>
+            </div>
+            <ul class="dropdown switcher-dropdown" data-mage-init="{" dropdowndialog":{="" "appendto":"#switcher-currency-nav=""> .options",
+            "triggerTarget":"#switcher-currency-trigger-nav",
+            "closeOnMouseLeave": false,
+            "triggerClass":"active",
+            "parentClass":"active",
+            "buttons":null}}"&gt;
+                                                                                                <li class="currency-USD switcher-option">
+                            <a href="#" data-post="{" action":"https:\="" \="" vlaggenactie.nl\="" directory\="" currency\="" switch\="" ","data":{"currency":"usd","uenc":"ahr0chm6ly92bgfnz2vuywn0awuubmwvb2zmzxj0zq,,"}}"="">USD - US Dollar</a>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+</div>                </div>
+
+                <div class="col-lg-8 toplinks-wrapper">
+                    <div class="toplinks-wrapper"><ul class="header links"><li class="myaccount-link">
+    <a href="https://vlaggenactie.nl/customer/account/" title="My Account">My Account</a>
+</li><li class="link wishlist" data-bind="scope: 'wishlist'">
+    <a href="https://vlaggenactie.nl/wishlist/">My Wish List        <!-- ko if: wishlist().counter -->
+        <span data-bind="text: wishlist().counter" class="counter qty"></span>
+        <!-- /ko -->
+    </a>
+</li>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "wishlist": {
+                        "component": "Magento_Wishlist/js/view/wishlist"
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+<li class="checkout-link">
+    <a href="https://vlaggenactie.nl/checkout/" title="Checkout">Checkout</a>
+</li><li class="link authorization-link" data-label="or">
+    <a href="#" class="trigger-ajax-login">Sign In</a>
+</li>
+</ul></div>                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-middle header-bottom">
+         <div class="container-fluid">
+           
+           
+           
+
+
+         <div class="row" id="logo_header_up">
+                <div class="col-xl-4 col-lg-4 col-sm-4 col-xs-4 logo-header">
+                    <div class="logo-wrapper">
+            <h2 class="logo-content">
+                        <strong class="logo-text">
+                Market - Best Responsive Magento2 Theme            </strong>
+            <strong class="logo">
+                <a class="logo" href="https://vlaggenactie.nl/" title="Market - Best Responsive Magento2 Theme">
+                    <img src="images/vlaggenactie_logo.png" title="Market - Best Responsive Magento2 Theme" alt="Market - Best Responsive Magento2 Theme" width="172" height="48">
+
+                </a>
+            </strong>
+                </h2>
+</div>
+
+                </div>
+
+                <div class="col-xl-4  col-lg-4 col-sm-4 col-xs-4 header-middle-right" id="searchConRev">
+                    <div class="middle-right-content">
+                        <div class="main-megamenu">
+                                                    </div>
+
+                        <div class="navigation-mobile-container">
+                            
+
+<!--COLLAPSE-->
+
+<!--SIDEBAR-->
+    <div class="nav-mobile-container sidebar-type">
+        <div class="btn-mobile">
+            <a id="sidebar-button" class="button-mobile sidebar-nav" title="Categories"><i class="fa fa-bars"></i><span class="hidden">Categories</span></a>
+        </div>
+
+                    <nav id="navigation-mobile" class="navigation-mobile"></nav>
+            <script type="text/javascript">
+                require([
+                    'jquery'
+                ], function ($) {
+                    $('#sidebar-button').click(function () {
+                        $('body').toggleClass('navbar-active');
+                        $(this).toggleClass('active');
+                    });
+                });
+            </script>
+        
+    </div>
+
+    <script type="text/javascript">
+        require([
+            'jquery'
+        ], function ($) {
+            $('.btn-submobile').click(function () {
+                $(this).prev().slideToggle(200);
+                $(this).toggleClass('btnsub-active');
+                $(this).parent().toggleClass('parent-active');
+            });
+
+            function cloneMegaMenu() {
+                var breakpoints = 991;
+                                var doc_width = $(window).width();
+                if (doc_width <= breakpoints) {
+                    var horizontalMegamenu = $('.sm_megamenu_wrapper_horizontal_menu .horizontal-type');
+                    var verticalMegamenu = $('.sm_megamenu_wrapper_vertical_menu .vertical-type');
+                    $('#navigation-mobile').append(horizontalMegamenu);
+                    $('#navigation-mobile').append(verticalMegamenu);
+                } else {
+                    var horizontalMegamenu = $('#navigation-mobile .horizontal-type');
+                    var verticalMegamenu = $('#navigation-mobile .vertical-type');
+                    $('.sm_megamenu_wrapper_horizontal_menu .sambar-inner .mega-content').append(horizontalMegamenu);
+                    $('.sm_megamenu_wrapper_vertical_menu .sambar-inner .mega-content').append(verticalMegamenu);
+                }
+            }
+
+            cloneMegaMenu();
+
+            $(window).resize(function () {
+                cloneMegaMenu();
+            });
+
+        });
+    </script>
+                        </div>
+
+                        <div class="search-header">
+                            <div class="search-wrapper">
+<div class="block-content">
+    <form class="form minisearch" id="search_mini_form" action="https://vlaggenactie.nl/catalogsearch/result/" method="get">
+        <div class="field search">
+            <div class="control">
+                <input id="search" data-mage-init="{" quicksearch":{="" "formselector":"#search_mini_form",="" "url":"https:="" vlaggenactie.nl="" search="" ajax="" suggest="" ",="" "destinationselector":"#search_autocomplete"}="" }"="" type="text" name="q" placeholder="Waar ben je naar op zoek?" class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off">
+                <img src="images/search.svg" style="position: absolute; right: 10px;width: 15px;top: 13px;" class="searchRes">
+                       
+                       <img src="images/searchweb.svg" style="position: absolute; right: 16px;width: 19px;top: 13px;" class="searchDesk">
+                
+                <div id="search_autocomplete" class="search-autocomplete"></div>
+                <div class="nested">
+    <a class="action advanced" href="https://vlaggenactie.nl/catalogsearch/advanced/" data-action="advanced-search">
+        Advanced Search    </a>
+</div>
+            </div>
+        </div>
+        <div class="actions">
+            <button type="submit" title="Search" class="btn-search-header">
+				<span>Search</span>
+            </button>
+        </div>
+    </form>
+</div>
+</div>                        </div>
+
+                        
+                    </div>
+                </div>
+                <div class="col-xl-4  col-lg-4 col-sm-4 col-xs-4  header-middle-right2">
+                    <div class="minicart-header">
+                            <div class="minicart-content">
+                                <div class="cart-wrapper">
+
+<script>
+    function customer_login()
+    {
+        document.getElementsByClassName("trigger-ajax-login").item(0).click();
+    }
+</script>
+<div data-block="minicart" class="minicart-wrapper">
+    <a onclick="customer_login2()" id="a_account"><img src="images/fa_user.svg" width="20"></a>
+
+    <a id="action_showcart" class="action showcart" data-bind="scope: 'minicart_content'">
+       <img src="images/fa_cart.svg" width="23">
+        <span class="text"><span class="df-text">Winkelwagen</span><span class="hidden">My Cart</span></span>
+        <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false &amp;&amp; !isLoading() },
+               blockLoader: isLoading">
+             <!-- ko if: getCartParam('summary_count') -->
+            <span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
+            <!-- /ko -->
+
+            <!-- ko ifnot: getCartParam('summary_count') -->
+				<span class="counter-number">0</span>
+            <!-- /ko -->
+            <span class="counter-label">
+            <!-- ko if: getCartParam('summary_count') -->
+                <!-- ko text: getCartParam('summary_count') --><!-- /ko -->
+                <!-- ko i18n: 'items' --><!-- /ko -->
+                <!-- /ko -->
+
+                <!-- ko ifnot: getCartParam('summary_count') -->
+                <!-- ko i18n: '0' --><!-- /ko -->
+                <!-- ko i18n: 'item' --><!-- /ko -->
+                <!-- /ko -->
+            </span>
+
+            <!-- ko if: getCartParam('summary_count') -->
+            <span class="price-minicart">
+                <!-- ko foreach: getRegion('subtotalContainer') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+                <!-- /ko -->
+            </span>
+            <!-- /ko -->
+
+            <!-- ko ifnot: getCartParam('summary_count') -->
+            <span class="price-minicart">
+                <div class="subtotal">
+                    <div class="amount price-container">
+                        <span class="price-wrapper">
+                            <span class="price">€0.00</span>
+                        </span>
+                    </div>
+                </div>
+            </span>
+            <!-- /ko -->
+        </span>
+    </a>
+            <div class="block block-minicart" data-role="dropdownDialog" data-mage-init="{" dropdowndialog":{="" "appendto":"[data-block="minicart]&quot;," "triggertarget":".showcart",="" "timeout":="" "2000",="" "closeonmouseleave":="" false,="" "closeonescape":="" true,="" "triggerclass":"active",="" "parentclass":"active",="" "buttons":[]}}"="">
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+                    </div>
+        <script>window.checkout = {"shoppingCartUrl":"https:\/\/vlaggenactie.nl\/checkout\/cart\/","checkoutUrl":"https:\/\/vlaggenactie.nl\/checkout\/","updateItemQtyUrl":"https:\/\/vlaggenactie.nl\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/vlaggenactie.nl\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/vlaggenactie.nl\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":1000,"storeId":"19","storeGroupId":"1","customerLoginUrl":"https:\/\/vlaggenactie.nl\/customer\/account\/login\/referer\/aHR0cHM6Ly92bGFnZ2VuYWN0aWUubmwvb2ZmZXJ0ZQ%2C%2C\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/vlaggenactie.nl\/captcha\/refresh\/","isRequired":false,"timestamp":1734727239}}}</script>    <script type="text/x-magento-init">
+    {
+        "[data-block='minicart']": {
+            "Magento_Ui/js/core/app": {"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"uiComponent","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content"},"component":"Magento_Checkout\/js\/view\/minicart"}},"types":[]}        },
+        "*": {
+            "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fvlaggenactie.nl\u002Fpub\u002Fstatic\u002Ffrontend\u002FSm\u002Fmarket\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+        }
+    }
+
+
+    </script>
+</div>
+
+</div>                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="header-categories">
+                <div class="hot-cat-wrapper" id="hot-cat-wrapper">
+                    <div class="hot-cat-slider owl-carousel">
+
+<div id="menu_495" class="item" style="background-color:#00ff00 !important">
+
+  <a class="category-item" title="Offerte" href="https://vlaggenactie.nl/offerte"> 
+
+      <span class="image-cat"> 
+
+         <img class="cI-1" src="images/actie_zwart.svg" alt=""> 
+
+         <img class="cI-2" src="images/actie_wit.svg" alt=""> 
+
+       </span> 
+
+       <span class="cat-link">Offerte</span>
+
+   </a>
+
+</div>
+
+
+
+
+
+<div id="menu_446" onmouseover="show_menu(this,446)" class="item">
+
+  <a class="category-item" title="Alle Producten" href="https://vlaggenactie.nl/alleproducten.html"> 
+
+      <span class="image-cat"> 
+
+         <img class="cI-1" src="images/alle_producten.svg" alt=""> 
+
+         <img class="cI-2" src="images/alle_producten_white.svg" alt=""> 
+
+       </span> 
+
+       <span class="cat-link">Alle Producten</span>
+
+   </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="menu_402" onmouseover="show_menu(this,402)" class="item"><a class="category-item" title="Vlaggen" href="https://vlaggenactie.nl/vlaggen.html"> <span class="image-cat"> <img class="cI-1" src="images/vlaggen.svg" alt=""> <img class="cI-2" src="images/vlaggen_white.svg" alt=""> </span> <span class="cat-link">Vlaggen</span> </a></div>
+
+
+
+
+
+
+
+
+
+<div id="menu_422" class="item"><a class="category-item" title="Beachflags" href="https://vlaggenactie.nl/beach-flags.html"> <span class="image-cat"> <img class="cI-1" src="images/beachflags.svg" alt=""> <img class="cI-2" src="images/beachflags_white.svg" alt=""> </span> <span class="cat-link">Beachflags</span> </a></div>
+
+<div id="menu_444" class="item"><a class="category-item" title="Beurs &amp; Evenement" href="https://vlaggenactie.nl/beurs-evenement.html"> <span class="image-cat"> <img class="cI-1" src="images/beurs_evenement.svg" alt=""> <img class="cI-2" src="images/beurs_evenement_white.svg" alt=""> </span> <span class="cat-link">Beurs &amp; Evenement</span> </a></div>
+
+<div id="menu_443" class="item"><a class="category-item" title="Binnen Reclame" href="https://vlaggenactie.nl/binnenreclame.html"> <span class="image-cat"> <img class="cI-1" src="images/binnen_reclame.svg" alt=""> <img class="cI-2" src="images/binnen_reclame_white.svg" alt=""> </span> <span class="cat-link">Binnen Reclame</span> </a></div>
+
+<div id="menu_441" class="item"><a class="category-item" title="Buiten Reclame" href="https://vlaggenactie.nl/buitenreclame.html"> <span class="image-cat"> <img class="cI-1" src="images/buiten_reclame.svg" alt=""> <img class="cI-2" src="images/buiten_reclame_white.svg" alt=""> </span> <span class="cat-link">Buiten Reclame</span> </a></div>
+
+<div id="menu_445" class="item"><a class="category-item" title="Interiur" href="https://vlaggenactie.nl/interieur.html"> <span class="image-cat"> <img class="cI-1" src="images/interieur.svg" alt=""> <img class="cI-2" src="images/interieur_white.svg" alt=""> </span> <span class="cat-link">Interieur</span> </a></div>
+
+<div id="menu_416" class="item"><a class="category-item" title="Spandoeken" href="https://vlaggenactie.nl/spandoeken.html"> <span class="image-cat"> <img class="cI-1" src="images/spandoeken.svg" alt=""> <img class="cI-2" src="images/spandoeken_white.svg" alt=""> </span> <span class="cat-link">Spandoeken</span> </a></div>
+
+<!--<div class="item"  onmouseover="show_menu(this,424)"  id="menu_424"><a class="category-item" title="Stickers" href="https://vlaggenactie.nl/stickers.html"> <span class="image-cat"> 
+
+
+
+<img  class="cI-1" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/sticker.svg" alt="" /> 
+
+<img  class="cI-2" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/sticker_white.svg" alt="" /> 
+
+
+
+
+
+</span> <span class="cat-link">Stickers</span> </a></div>-->
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item"  onmouseover="show_menu(this)"><a class="category-item" title="Vlaggenmasten" href="https://vlaggenactie.nl/vlaggenmasten.html"> <span class="image-cat"> 
+
+
+
+<img  class="cI-1" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/vlaggenmasten.svg" alt="" /> 
+
+<img  class="cI-2" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/vlaggenmasten_white.svg" alt="" />
+
+
+
+</span> <span class="cat-link">Vlaggenmasten</span> </a></div>--> <!--<div class="item"  onmouseover="show_menu(this)"><a class="category-item" title="Vlaggenstokken" href="https://vlaggenactie.nl/vlaggenstokken.html"> <span class="image-cat"> 
+
+
+
+<img  class="cI-1" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/vlaggenstokken.svg" alt="" /> 
+
+<img  class="cI-2" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/vlaggenstokken_white.svg" alt="" /> 
+
+
+
+
+
+</span> <span class="cat-link">Vlaggenstokken</span> </a></div>--> <!--<div class="item"  onmouseover="show_menu(this)"><a class="category-item" title="Wimpels" href="https://vlaggenactie.nl/wimpels.html"> <span class="image-cat"> 
+
+
+
+<img  class="cI-1" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/wimpel.svg" alt="" />
+
+<img  class="cI-2" src="https://vlaggenactie.nl/pub/media/wysiwyg/icon-categories/vlaggenactie/wimpel_white.svg" alt="" />
+
+
+
+
+
+
+
+ </span> <span class="cat-link">Wimpels</span> </a></div-->
+
+
+
+<div id="menu_417" class="item"><a class="category-item" title="Banieren" href="https://vlaggenactie.nl/banieren.html"> <span class="image-cat"> <img class="cI-1" src="images/banieren.svg" alt=""> <img class="cI-2" src="images/banieren_white.svg" alt=""> </span> <span class="cat-link">Banieren</span> </a></div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="bottom_menu">�&nbsp;</div>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="div_left_sidebar" class="menuContainer page_login" "="" style="display: none;">
+        <ul class="salePageMenu">
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl">
+                    <img class="sidebar_img_1" src="images/startpagina.svg">
+                    <img class="sidebar_img_2" src="images/startpagina_white.svg">
+                    <br>
+                    Startpagina
+                                    </a>
+                
+            </li>
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl/customer/account">
+                    <img class="sidebar_img_1" src="images/instellingen.svg"> 
+                    <img class="sidebar_img_2" src="images/instellingen_white.svg">
+                    <br>
+                    Instellingen
+                                      </a>
+                
+            </li>
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl/winkelwagens">
+                    <img class="sidebar_img_1" src="images/winkelwagens.svg">
+                    <img class="sidebar_img_2" src="images/winkelwagens_white.svg">
+                    <br>
+                    Winkelwagens
+                                    </a>
+            </li>
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl/sales/order/history/">
+                    <img class="sidebar_img_1" src="images/bestellingen.svg">
+                    <img class="sidebar_img_2" src="images/bestellingen_white.svg"> <br>
+                    Bestellingen
+                                    </a>
+            </li>
+            <li class="text-center" "="">
+                <a href="https://vlaggenactie.nl/offerte?is=list">
+                    <img class="sidebar_img_1" src="images/offertes.svg">
+                    <img class="sidebar_img_2" src="images/offertes_white.svg">
+                     <br>
+                    Offertes
+                                            <span class="active_span"></span>
+                                    </a>
+            </li>
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl/customer/address/">
+                    <img class="sidebar_img_1" src="images/adresboek.svg">
+                    <img class="sidebar_img_2" src="images/adresboek_white.svg">
+                    <br>
+                    Adresboek
+                                    </a>
+            </li>
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl/fakturen">
+                    <img class="sidebar_img_1" src="images/facturen.svg"> 
+                    <img class="sidebar_img_2" src="images/facturen_white.svg">     
+                    <br>
+                    Facturen
+                                    </a>
+            </li>
+            <li class="text-center">
+                <a href="https://vlaggenactie.nl/mijnproducten">
+                    <img class="sidebar_img_1" src="images/mijn_producten.svg"> 
+                    <img class="sidebar_img_2" src="images/mijn_producten_white.svg"> 
+                    <br>
+                    Mijn Producten
+                                    </a>
+            </li>
+            <li class="text-center" style="display:none">
+                <a href="https://vlaggenactie.nl">
+                    <img class="sidebar_img_1" src="images/api_koppeling.svg">
+                    <img class="sidebar_img_2" src="images/api_koppeling_white.svg">
+
+                     <br>
+                    API-koppeling
+                                    </a>
+            </li>
+            
+            <li class="text-center">
+                <a onclick="logout()">
+                    <img class="sidebar_img_1" src="images/uitloggen.svg"> 
+                    <img class="sidebar_img_2" src="images/uitloggen_white.svg">
+
+                    <br>
+                    Uitloggen
+                </a>
+            </li>
+        </ul>
+    </div>
+<div id="bgDark" style="left: -999px;"></div>
+
+<div id="mobileLeftBtn" onclick="showResMenu()" class="page_loginmobile">
+        <img src="images/voorkeuren.svg" width="14"> Voorkeuren
+</div>
+
+<div id="leftMenuRes" style="left: -999px;">
+        <div id="closeleftMenu" onclick="hideResMenu()">X</div>
+        <ul>
+            <li class="activeMenuRes">
+                <a href="https://vlaggenactie.nl">
+                    <img src="images/startpagina.svg">
+                    Startpagina
+                </a>
+            </li>
+            <li class="">
+                <a href="https://vlaggenactie.nl/customer/account">
+                    <img src="images/instellingen.svg">
+                    Instellingen
+                </a>
+                
+            </li>
+            <li class="">
+                <a href="https://vlaggenactie.nl/winkelwagens">
+                    <img src="images/winkelwagens.svg">
+                    Winkelwagens
+                </a>
+            </li>
+            <li class="">
+                <a href="https://vlaggenactie.nl/sales/order/history/">
+                    <img src="images/bestellingen.svg">
+                    Bestellingen
+                </a>
+            </li>
+            <li class="" style="display:none">
+                <a href="https://vlaggenactie.nl/offertes">
+                    <img src="images/offertes.svg">
+                    Offertes
+                </a>
+            </li>
+            <li class="">
+                <a href="https://vlaggenactie.nl/customer/address/">
+                    <img src="images/adresboek.svg">
+                    Adresboek
+                </a>
+            </li>
+            <li class="">
+                <a href="https://vlaggenactie.nl/fakturen">
+                    <img src="images/facturen.svg">
+                    Facturen
+                </a>
+            </li>
+            <li class="">
+                <a href="https://vlaggenactie.nl/mijnproducten">
+                    <img src="images/mijn_producten.svg">
+                    Mijn Producten
+                </a>
+            </li>
+            <li class="" style="display:none">
+                <a href="https://vlaggenactie.nl">
+                    <img src="images/api_koppeling.svg">
+                    API-koppeling
+                </a>
+            </li>
+            
+            <li class="">
+                <a onclick="logout()">
+                    <img src="images/uitloggen.svg">
+                    Uitloggen
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+<main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="columns col1-layout"><div class="container"><div class="row"><div class="col-lg-12 col-md-12">    <div class="page-title-wrapper">
+        <h1 class="page-title">
+            <span class="base" data-ui-id="page-title-wrapper">Offerte</span>        </h1>
+            </div>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <!-- ko if: messages().messages && messages().messages.length > 0 -->
+    <div role="alert" data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages">
+        <div data-bind="attr: {
+            class: 'message-' + message.type + ' ' + message.type + ' message',
+            'data-ui-id': 'message-' + message.type
+        }">
+            <div data-bind="html: $parent.prepareMessageForHtml(message.text)"></div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                        "messages": {
+                            "component": "Magento_Theme/js/view/messages"
+                        }
+                    }
+                }
+            }
+    }
+</script>
+</div><div class="column main">
+<div id="ajaxlogin-popup" data-bind="scope:'ajaxLogin'" style="display: none;">
+    <script>
+        window.ajaxLogin = {"autocomplete":"off","customerRegisterUrl":"https:\/\/vlaggenactie.nl\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/vlaggenactie.nl\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/vlaggenactie.nl\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#ajaxlogin-popup": {
+                "Magento_Ui/js/core/app": {"components":{"ajaxLogin":{"component":"SussexDev_AjaxLogin\/js\/view\/ajaxlogin-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"}}}}}            }
+        }
+    </script>
+</div>
+<input name="form_key" type="hidden" value="l3FNyA2zRCzpAfrm"><div id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}">
+        <script>window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/vlaggenactie.nl\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/vlaggenactie.nl\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/vlaggenactie.nl\/"}</script>    <!-- ko template: getTemplate() --><!-- /ko -->
+    <script type="text/x-magento-init">
+        {
+            "#authenticationPopup": {
+                "Magento_Ui/js/core/app": {"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"},"amazon-button":{"component":"Amazon_Login\/js\/view\/login-button-wrapper","sortOrder":"0","displayArea":"additional-login-form-fields","config":{"tooltip":"Securely login to our website using your existing Amazon details.","componentDisabled":true}}}}}}            },
+            "*": {
+                "Magento_Ui/js/block-loader": "https\u003A\u002F\u002Fvlaggenactie.nl\u002Fpub\u002Fstatic\u002Ffrontend\u002FSm\u002Fmarket\u002Fen_US\u002Fimages\u002Floader\u002D1.gif"
+            }
+        }
+    </script>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/section-config": {
+                "sections": {"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products"],"catalog\/product_compare\/remove":["compare-products"],"catalog\/product_compare\/clear":["compare-products"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data"],"checkout\/cart\/delete":["cart"],"checkout\/cart\/updatepost":["cart"],"checkout\/cart\/updateitemoptions":["cart"],"checkout\/cart\/couponpost":["cart"],"checkout\/cart\/estimatepost":["cart"],"checkout\/cart\/estimateupdatepost":["cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist"],"wishlist\/index\/remove":["wishlist"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart"],"wishlist\/index\/fromcart":["wishlist","cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"cartquickpro\/cart\/add":["cart"],"cartquickpro\/cart\/delete":["cart"],"cartquickpro\/sidebar\/removeitem":["cart"],"cartquickpro\/sidebar\/updateitemqty":["cart"],"cartquickpro\/cart\/updateitemoptions":["cart"],"cartquickpro\/product_compare\/add":["compare-products"],"cartquickpro\/product_compare\/remove":["compare-products"],"cartquickpro\/product_compare\/clear":["compare-products"],"cartquickpro\/wishlist_index\/add":["wishlist"],"cartquickpro\/wishlist_index\/remove":["wishlist"],"cartquickpro\/wishlist_index\/updateitemoptions":["wishlist"],"cartquickpro\/wishlist_index\/update":["wishlist"],"cartquickpro\/wishlist_index\/cart":["wishlist","cart"],"cartquickpro\/wishlist_index\/fromcart":["cart","checkout-data","wishlist"],"cartquickpro\/wishlist_index\/allcart":["wishlist","cart"]},
+                "clientSideSections": ["checkout-data","cart-data","chatData"],
+                "baseUrls": ["https:\/\/vlaggenactie.nl\/"],
+                "sectionNames": ["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","wishlist","chatData","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/customer-data": {
+                "sectionLoadUrl": "https\u003A\u002F\u002Fvlaggenactie.nl\u002Fcustomer\u002Fsection\u002Fload\u002F",
+                "expirableSectionLifetime": 60,
+                "expirableSectionNames": ["cart","persistent"],
+                "cookieLifeTime": "86400",
+                "updateSessionUrl": "https\u003A\u002F\u002Fvlaggenactie.nl\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Customer/js/invalidation-processor": {
+                "invalidationRules": {
+                    "website-rule": {
+                        "Magento_Customer/js/invalidation-rules/website-rule": {
+                            "scopeConfig": {
+                                "websiteId": "1"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/vlaggenactie.nl\/page_cache\/block\/render\/","handles":["default","offerte_index_index","ajaxlogin_customer_logged_out"],"originalRequest":{"route":"offerte","controller":"index","action":"index","uri":"\/offerte"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+<style>
+    .loading
+    {
+        cursor: progress;
+    }
+</style> 
+<link rel="stylesheet" href="css/jquery.dataTables.min.css">
+<style>
+#submitBtn.loading {  
+  background-color: #ccc;  
+  color: #888;  
+  cursor: wait;  
+} 
+#dtBasicExample a
+{
+    text-decoration: underline;
+}
+  #div_search
+{
+    width: 250px; 
+    float: right; 
+    
+}
+#div_search input
+{
+    height: 35px;
+    font-size: 100%;
+    line-height: 1.66;
+    background-color: #fff;
+    color: #666;
+    -webkit-box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%) !important;
+    box-shadow: 0px 0px 9px 2px rgb(0 65 97 / 10%) !important;
+    border-radius: 5px;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+}
+.bestelProd {
+    display: flex;
+    border-top: 1px solid rgba(0,65,97, 0.130);
+    padding-top: 15px;
+    margin-top: 5px;
+}
+.bodyCon {
+    -webkit-box-shadow: 0px 0px 11px -6px rgb(0 65 97 / 64%) !important;
+    box-shadow: 0px 0px 11px -6px rgb(0 65 97 / 64%) !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    border: 1px solid #eee;
+}
+.bestelProdImg {
+    width: 36px;
+    margin-right: 16px;
+}
+.bestelProdRight {
+    display: flex;
+}
+.bastelTotal {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid rgba(0,65,97,0.130);
+    padding-top: 16px;
+}
+.bastelTotal ul li {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.bastelTotal ul li div:nth-child(1) {
+    margin-right: 25px;
+    width: 133px;
+    text-align: right;
+}
+.bastelTotal ul li:nth-child(3) div {
+    color: rgb(255,128,35);
+    font-size: 15px;
+}
+.adressBookTable table tbody tr td, .facturenTable table tbody tr td, .accTable table tbody tr td, .bestelTable table tbody tr td {
+    border-top: 1px solid rgba(0,65,97,0.130);
+    font-weight: 500;
+}
+
+
+
+  
+        .custom-file-upload {  
+            border: 1px solid #ccc;  
+            display: inline-block;  
+            padding: 6px 12px;  
+            cursor: pointer;  
+            width: 100%;  
+            text-align: center;  
+        }  
+        .form-section {  
+            margin-bottom: 20px;  
+        }  
+.messages
+{
+    display: none !important;
+}
+</style>
+
+<div id="div_offerte_response"></div>
+
+
+
+
+<div class="container mt-5" id="myForm">  
+        
+        <form id="myForm">  
+        <div class="row form-section">
+            <div class="col-md-6">  
+                <label for="firstName" class="form-label">Naam *</label>  
+                <input type="text" class="form-control" id="customer_name" placeholder="Voornaam"> 
+                <small class="form-text text-muted">Voornaam</small> 
+            </div>  
+            <div class="col-md-6">  
+                <label for="lastName" class="form-label">Achternaam</label>  
+                <input type="text" class="form-control" id="customer_lastname" placeholder="Achternaam"> 
+                <small class="form-text text-muted">Achternaam</small> 
+            </div>  
+            </div>
+            
+            
+            <div class="row form-section">
+            <div class="col-md-6">
+                <label for="email" class="form-label">E-mail *</label>  
+                <input type="email" class="form-control" id="customer_email" placeholder="voorbeeld@voorbeeld.com">
+                <small class="form-text text-muted">voorbeeld@voorbeeld.com</small> 
+                </div>
+             
+            
+            
+            
+            
+            <div class="col-md-6">  
+                <label for="phone" class="form-label">Telefoonnummer</label>  
+                <input type="tel" class="form-control" id="customer_phone" placeholder="+310-00000000">  
+                <small class="form-text text-muted">Voor nederland gebruik +316</small>  
+            </div> 
+            </div>
+            
+            
+            
+             <div class="form-section">  
+                <label class="form-label">Reference</label>  
+                  <input type="text" class="form-control" id="reference" placeholder="Reference...">  
+            </div> 
+            
+            <div class="form-section" style="height:250px;">  
+                <label class="form-label">Voeg hier eventueel een foto of bestand toe</label>  
+                <div id="div_upload" style="height:250px;width:100%;border:1px dotted">
+                    
+                </div>
+                
+            </div>  
+            <div class="form-section">  
+                <label for="offerte_content" class="form-label">Beschrijving van uw product idee *</label>  
+                <textarea class="form-control" id="offerte_content" rows="4" placeholder="Type here..." style="height:250px;"></textarea>  
+            </div>  
+            
+            <input type="hidden" id="code" name="code" value="201224ckOgynkmTSgf7VoOqXkx9FHL">
+            <button type="submit" class="btn btn-primary" style="float:right" id="submitBtn">Submit</button>  
+        </form>  
+    </div>  
+
+<script src="js/aws-sdk-2.283.1.min.js"></script>
+   
+<script type="text/javascript"> 
+function show_upload_area()
+{
+    var html = '<iframe id="ifrm1" src="https://vlaggenactie.nl/fupload.php?code=201224ckOgynkmTSgf7VoOqXkx9FHL" style="width:100%;height:250px;border:none" />';
+    document.getElementById("div_upload").innerHTML = html;
+    
+}
+
+function getDomainWithHttp() {  
+    // Mevcut sayfanın URL'sini al  
+    const url = window.location.href;  
+
+    // URL'yi yeni bir URL nesnesine dönüştür  
+    const urlObject = new URL(url);  
+
+    // Protokolü ve alan adını birleştir  
+    const domainWithHttp = `${urlObject.protocol}//${urlObject.host}`;  
+
+    return domainWithHttp;  
+} 
+
+const submitBtn = document.getElementById('submitBtn');  
+
+
+
+    require([  
+        'jquery'  
+    ], function($) {  
+        $(document).ready(function() {  
+           setTimeout(show_upload_area,1000);
+           
+            
+            $('#myForm').on('submit', function(e) {  
+                
+                e.preventDefault(); // Formun varsayılan gönderimini engeller  
+                
+                 submitBtn.classList.add('loading'); 
+                 
+   
+                const domain = getDomainWithHttp(); 
+                var link = domain + "/offerte/index/save";
+                
+                
+                var customer_name       = document.getElementById("customer_name").value;
+                var customer_lastname   = document.getElementById("customer_lastname").value;
+                var customer_email      = document.getElementById("customer_email").value;
+                var customer_phone      = document.getElementById("customer_phone").value;
+                var reference           = document.getElementById("reference").value;
+                var offerte_content     = document.getElementById("offerte_content").value;
+                var code                = '201224ckOgynkmTSgf7VoOqXkx9FHL';
+                var mode                = '';
+           
+                
+                if (customer_name.trim().length == 0)
+                {
+                    alert("Naam is required");
+                    return;
+                }
+                
+                if (customer_email.trim().length == 0)
+                {
+                    alert("Email is required");
+                    return;
+                }
+                
+                if (offerte_content.trim().length == 0)
+                {
+                    alert("Offerte content is required");
+                    return;
+                }
+                
+                
+    
+                
+                const formData = {  
+                      customer_name: customer_name,  
+                      customer_lastname: customer_lastname,
+                      customer_email: customer_email,
+                      customer_phone: customer_phone,
+                      reference: reference,
+                      offerte_content: offerte_content,
+                      code: code,
+                      mode: mode
+                      
+                      
+                    };  
+                
+                
+            
+                
+                
+                $.ajax({  
+                    url: link, // Hedef URL  
+                    type: 'POST', // HTTP isteği türü 
+                    headers: {  
+    'Content-Type': 'application/json'  
+  },
+                    data: JSON.stringify(formData), // Gönderilecek veri  
+                    success: function(response) {  
+                        // Başarılı istek durumunda yapılacaklar  
+                        submitBtn.classList.remove('loading'); 
+                        var msg = "Offerte request has been recceived";
+                        
+                        document.getElementById("div_offerte_response").innerHTML = msg;
+                        alert(msg);
+                        setTimeout(function(){location.reload()},2000);
+                        
+                            document.getElementById("offerte_content").value = "";
+                            document.getElementById("customer_name").value = "";
+                            document.getElementById("customer_email").value = "";
+                            document.getElementById("customer_phone").value = "";
+                            document.getElementById("customer_reference").value = "";
+                            
+                            
+                      
+                    },  
+                    error: function(xhr, status, error) {  
+                        // Hata durumunda yapılacaklar  
+                        console.error('Hata:', error);  
+                        
+                        var msg = "An error occured!";
+                         alert(msg);
+                        document.getElementById("div_offerte_response").innerHTML = msg;
+                    }  
+                });  
+            });  
+        });  
+    });  
+</script>
+
+
+
+
+</div></div></div></div></div></main><footer class="page-footer"><div class="footer footer-wrapper">
+    <a id="yt-totop-fix" href="javascript:void(0)" title="Go to Top"></a>
+
+    <div class="footer-container footer-style-9">
+        <div class="footer-wrapper">
+            <div class="footer-middle">
+<div class="container desktopFooter">
+<div class="row no-gutters">
+<div class="col-12 col-md-6 col-lg-2 p-2">
+<div class="footer-block-title mb-4">
+<h4 style="color: #fff; text-transform: uppercase;">vlaggenactie.nl</h4>
+</div>
+<div class="footer-block-content">
+<ul class="links-footer">
+<li><a title="Over ons" href="https://vlaggenactie.nl/overons">Over ons</a></li>
+<li><a title="Klantenservice" href="https://vlaggenactie.nl/klantenservice">Klantenservice</a></li>
+<li><a title="Aanleverspecificaties" href="https://vlaggenactie.nl/aanleverspecificaties">Aanleverspecificaties</a></li>
+<li><a title="Bestelproces" href="https://vlaggenactie.nl/info-mgv-hoe-bestel-ik">Bestelproces</a></li>
+<li><a title="Contact" href="https://vlaggenactie.nl/contact">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-2 p-2">
+<div class="footer-block-title mb-4">
+<h4 style="color: #fff; text-transform: uppercase;">Vragen over</h4>
+</div>
+<div class="footer-block-content">
+<ul class="links-footer">
+<li><a title="Bestelling" href="https://vlaggenactie.nl/info-bestelling">Bestelling</a></li>
+<li><a title="Verzending" href="https://vlaggenactie.nl/info-verzending">Verzending</a></li>
+<li><a title="Privacy Statement" href="https://vlaggenactie.nl/privacy-statement">Privacy Statement</a></li>
+<li><a title="Algemene voorwaarden" href="https://vlaggenactie.nl/algemene-voorwaarden">Algemene voorwaarden</a></li>
+<li><a title="Bestelling annuleren" href="https://vlaggenactie.nl/info-ik-wil-mijn-bestelling-annuleren-hoe-doe-ik-dat">Bestelling annuleren</a></li>
+<li><a title="Sitemap" href="https://vlaggenactie.nl/vlaggenactie/sitemap.xml">Sitemap</a></li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-3 p-2">
+<div class="footer-block-title mb-4">
+<h4 style="color: #fff; text-transform: uppercase; margin-left: 35px;">Contact</h4>
+</div>
+<div class="footer-block-content">
+<ul class="links-contact">
+<li class="add-icon d-flex">
+<div style="color: #fff;">Vlaggenactie<br>Overvliet 94 3545NH Utrecht<br>KvK-nummer: 61815101<br>BTW: NL854500686B01</div>
+</li>
+<li class="email-icon middle-content d-flex">
+<div style="color: #fff;">info@vlaggenactie.nl</div>
+</li>
+<li class="phone-icon middle-content d-flex" style="margin-top: -15px;">
+<div style="color: #fff;">+31(0)85 200 39 97</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-2">
+
+
+
+<div>
+	<div class="headSpeakersImg"><img src="images/heb_je_een_vraag_mobil.svg">
+	<p style="font-size: 17px; text-align: center; margin-top: 10px;"><strong style="color: #fff;">+31(0)85 200 39 97</strong></p>
+</div>
+</div>
+</div>
+</div>
+<div class="container mobileFooter">
+<div class="faqs-container">
+<div class="faq-singular">
+<h6 class="faq-question">vlaggenactie.nl</h6>
+<div class="faq-answer" style="display: none;">
+<div>
+<div class="footer-block-content">
+<ul class="links-footer">
+<li><a title="Over ons" href="https://vlaggenactie.nl/overons">Over ons</a></li>
+<li><a title="Klantenservice" href="https://vlaggenactie.nl/klantenservice">Klantenservice</a></li>
+<li><a title="Aanleverspecificaties" href="https://vlaggenactie.nl/aanleverspecificaties">Aanleverspecificaties</a></li>
+<li><a title="Bestelproces" href="https://vlaggenactie.nl/info-mgv-hoe-bestel-ik">Bestelproces</a></li>
+<li><a title="Contact" href="https://vlaggenactie.nl/contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="faq-singular">
+<h6 class="faq-question">Vraggen over</h6>
+<div class="faq-answer">
+<div>
+<div class="footer-block-content">
+<ul class="links-footer">
+<li><a title="Bestelling" href="https://vlaggenactie.nl/info-bestelling">Bestelling</a></li>
+<li><a title="Verzending" href="https://vlaggenactie.nl/info-verzending">Verzending</a></li>
+<li><a title="Privacy Statement" href="https://vlaggenactie.nl/privacy-statement">Privacy Statement</a></li>
+<li><a title="Algemene voorwaarden" href="https://vlaggenactie.nl/algemene-voorwaarden">Algemene voorwaarden</a></li>
+<li><a title="Bestelling annuleren" href="https://vlaggenactie.nl/info-ik-wil-mijn-bestelling-annuleren-hoe-doe-ik-dat">Bestelling annuleren</a></li>
+<li>�&nbsp;</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 copyright-footer">
+                                                            <address><a title="#" target="_blank">© 2019 Vlaggenactie Digital Printing. All Rights Reserved.</a>
+</address>
+                                                    </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-payment">
+                            <img class="mark-lazy lazyload" src="images/blank.png" data-src="https://vlaggenactie.nl/pub/media/wysiwyg/payment/payment-id16.png" alt="Payment">                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div></div></footer><script type="text/x-magento-init">
+        {
+            "*": {
+                "Magento_Ui/js/core/app": {
+                    "components": {
+                        "storage-manager": {
+                            "component": "Magento_Catalog/js/storage-manager",
+                            "appendTo": "",
+                            "storagesConfiguration" : {"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/vlaggenactie.nl\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/vlaggenactie.nl\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/vlaggenactie.nl\/rest\/mauritius\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/vlaggenactie.nl\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}                        }
+                    }
+                }
+            }
+        }
+</script>
+
+<script type="text/javascript">
+    require([
+        'jquery',
+        'quickView',
+        'domReady!'
+    ], function ($, cartQuickView) {
+        var quickViewCf = {
+            isQuickView: false,
+            isAjaxCart: true,
+            product_container: '.product-item',
+            button_container: '.product-item-info[data-container="product-grid"] .actions-secondary, .product-item-info[data-container="product-list"] .box-image-list, .box-quickview, .box-quickview-inline',
+            label_button: 'Quick View',
+            base_url: 'https://vlaggenactie.nl/'
+        }
+        $(quickViewCf.product_container).cartQuickView(quickViewCf);
+        $(document).on("afterAjaxProductsLoaded", function (event) {
+            $(quickViewCf.product_container).cartQuickView(quickViewCf);
+        });
+    });
+</script>	
+<script type="text/x-magento-init">
+{
+	"#maincontent": {
+		"Sm_CartQuickPro/js/custom-addtocart": {
+			"isEnabled": true,
+			"isAjaxCart": true,
+			"urlLogin": "https://vlaggenactie.nl/customer/account/login/",
+			"isLoggedIn": false,
+			"addUrl": "https://vlaggenactie.nl/cartquickpro/cart/add",
+			"isUpdateConfigure": false,
+			"isCompareIndex": false,
+			"isProductView": false,
+			"isCheckoutPage":  false,
+			"isWishlistPage": false,
+			"urlCurrent": "https://vlaggenactie.nl/offerte",
+			"countDownNumber": 100		}
+	}
+}
+
+
+</script>
+
+
+<div id="smcqp-container" style="display:none;">
+    <div data-role="loader" class="loading-mask">
+        <div class="loader">
+            <img src="images/loader-1.gif" alt="Loading...">
+        </div>
+    </div>
+    <div id="smcqp-contents">
+    </div>
+    <div id="smcqp-report" style="display:none;">
+        <div class="smcqp-messages">
+        </div>
+        <div class="smcqp-actions">
+            <a class="smcqp-continue spcqp-count" data-count="100" href="#" title="Continue">
+                Continue            </a>
+            <a class="smcqp-btn smcqp-view-cart " href="https://vlaggenactie.nl/checkout/cart/" title="View Cart">
+                View Cart            </a>
+            <a class="smcqp-btn smcqp-view-compare " href="https://vlaggenactie.nl/catalog/product_compare/index/" title="Compare Products">
+                Compare Products            </a>
+            <a class="smcqp-btn smcqp-view-wishlist " href="https://vlaggenactie.nl/wishlist/" title="My Wishlist">
+                My Wishlist            </a>
+        </div>
+    </div>
+</div>
+
+<div data-role="loader" class="loading-mask-shopby" style="display:none">
+    <div class="loader">
+        <img src="images/loader-1.gif" alt="Loading...">
+    </div>
+</div>  </div>    
+
+</body></html>
