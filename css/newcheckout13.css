@@ -2749,8 +2749,16 @@ button:focus
 }
 .page-title-wrapper
 {
+    flex: 1;
+    width: 50%;
     position:relative;
 }
+
+.img-teklif-responsive {
+    flex: 1;
+    width: 50%;
+}
+
 .catalog-category-view .product-items {
 	padding-left: 15px;
 	padding-right: 0px;
@@ -2820,9 +2828,70 @@ button:focus
 	border-radius: 10px;
 	padding: 20px;
 }
-.page-title
-{
-    margin-bottom: 0px !important;
+.offerte-container {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.page-title {
+    font-size: xx-large;
+}
+.offerte-p-green {
+    font-size: x-large;
+    font-weight: 700;
+    color: #345438;
+
+}
+
+.img-teklif-responsive {
+    width: 50%;
+}
+
+.offerte-p-orange {
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(255,128,35);
+}
+
+@media (max-width: 768px) {
+    .offerte-container {
+        flex-direction: column;
+    }
+    .img-teklif-responsive {
+        width: 100%;
+    }
+
+    .page-title {
+        font-size: x-large;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px !important;
+    }
+
+    .offerte-p-green, .offerte-p-orange {
+        font-size: small !important;
+        display: block;
+        text-align: center;
+    }
+}
+
+.offerte-form-label {
+    color: rgb(255,128,35);
+    font-size: 14px !important
+}
+.text-muted {
+    color: #345438 !important;
+    font-weight: 500;
+    font-size: 11px !important;
+    letter-spacing: 1,25px;
+}
+.offerte-label {
+    border: 2px solid #ccc !important;
+    border-radius: 5px !important; 
+    background-color: #f1f6f7 !important; 
 }
 .products-grid .product-item-info
 {

@@ -23,7 +23,6 @@ a:hover {
 .smcqp-btn,
 .spcqp-count,
 .owl-controls .owl-nav div:hover,
-.page-title:before,
 button:hover,
 .cart-container .action.continue:hover,
 a.action.primary:hover,
@@ -2141,7 +2140,7 @@ a.action.primary:hover,
   padding: 72px 0 22px;
 }
 .header-16-style.no-breadcrumbs .header-style-16 {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 .header-16-style.no-breadcrumbs.cms-index-index .header-style-16 {
   margin-bottom: 0;

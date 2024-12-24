@@ -60,7 +60,8 @@ a .action-edit
 a .action-towishlist
 {
    display:none !important;
-}</style>
+}
+</style>
 
 <script>
     require([
@@ -1558,10 +1559,29 @@ Houd hier rekening mee bij bestelling.</center>
 
 
 <main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
-<div class="columns col1-layout"><div class="container"><div class="row"><div class="col-lg-12 col-md-12">    <div class="page-title-wrapper">
-        <h1 class="page-title">
-            <span class="base" data-ui-id="page-title-wrapper">Offerte</span>        </h1>
+<div class="columns col1-layout"><div class="container"><div class="row"><div class="col-lg-12 col-md-12">
+    <div class="offerte-container">
+        <div style="padding-bottom: 0.5rem">
+            <h1 class="page-title">
+                <span class="base" data-ui-id="page-title-wrapper" style="color: rgb(255,128,35); padding-bottom: 0.5rem;">Offerte</span>        
+            </h1>
+            <div class="offerte-p-green">Vlaggen, spandoeken,
+                vlaggenmasten of wellicht een
+                ander product uit ons assortiment
+                bij ons bent u aan het juiste adres.
             </div>
+            <div class="offerte-p-orange">
+                Wij verzorgen voor u de juiste
+                aanbieding tegen de
+                beste condities.
+            </div>
+        </div>
+           
+        <image src="images/teklif.svg" alt="Offerte" class="img-teklif-responsive">
+    </div>
+
+    </div>
+   
 <div class="page messages"><div data-placeholder="messages"></div>
 <div data-bind="scope: 'messages'">
     <!-- ko if: cookieMessages && cookieMessages.length > 0 -->
@@ -1789,13 +1809,13 @@ Houd hier rekening mee bij bestelling.</center>
         <form id="myForm">  
         <div class="row form-section">
             <div class="col-md-6">  
-                <label for="firstName" class="form-label">Naam *</label>  
-                <input type="text" class="form-control" id="customer_name" placeholder="Voornaam"> 
-                <small class="form-text text-muted">Voornaam</small> 
+                <label for="firstName" class="form-label offerte-form-label" >Naam *</label>  
+                <input type="text" class="offerte-label" id="customer_name"> 
+                <small class="form-text text-muted ">Voornaam</small> 
             </div>  
             <div class="col-md-6">  
-                <label for="lastName" class="form-label">Achternaam</label>  
-                <input type="text" class="form-control" id="customer_lastname" placeholder="Achternaam"> 
+                <label for="lastName" class="form-label offerte-form-label">Achternaam</label>  
+                <input type="text" class="offerte-label"  id="customer_lastname" > 
                 <small class="form-text text-muted">Achternaam</small> 
             </div>  
             </div>
@@ -1803,43 +1823,45 @@ Houd hier rekening mee bij bestelling.</center>
             
             <div class="row form-section">
             <div class="col-md-6">
-                <label for="email" class="form-label">E-mail *</label>  
-                <input type="email" class="form-control" id="customer_email" placeholder="voorbeeld@voorbeeld.com">
-                <small class="form-text text-muted">voorbeeld@voorbeeld.com</small> 
+                <label for="email" class="form-label offerte-form-label">E-mail *</label>  
+                <input type="email" class="offerte-label" id="customer_email">
+                <small class="form-text text-muted">email@email.com</small> 
                 </div>
              
             
             
-            
-            
             <div class="col-md-6">  
-                <label for="phone" class="form-label">Telefoonnummer</label>  
-                <input type="tel" class="form-control" id="customer_phone" placeholder="+310-00000000">  
-                <small class="form-text text-muted">Voor nederland gebruik +316</small>  
+                <label for="phone" class="form-label offerte-form-label">Telefoonnummer</label>  
+                <input type="tel" class="offerte-label" id="customer_phone" style=" border: 2px solid #ccc !important;
+                border-radius: 5px !important; 
+                background-color: #f1f6f7 !important; box-shadow: none !important;" >  
+                <small class="form-text text-muted">Voor nederland gebruik +31</small>  
             </div> 
             </div>
             
             
             
              <div class="form-section">  
-                <label class="form-label">Reference</label>  
-                  <input type="text" class="form-control" id="reference" placeholder="Reference...">  
+                <label class="form-label offerte-form-label">Reference</label>  
+                  <input type="text" class="offerte-label" id="reference" >  
+                  <small class="form-text text-muted">Om de offerte niet te vergeten, schrijf een referentie</small>  
+                  
             </div> 
             
-            <div class="form-section" style="height:250px;">  
-                <label class="form-label">Voeg hier eventueel een foto of bestand toe</label>  
-                <div id="div_upload" style="height:250px;width:100%;border:1px dotted">
+            <div class="form-section" style="min-height:250px;">  
+                <label class="form-label offerte-form-label">Voeg hier eventueel een foto of bestand toe</label>  
+                <div id="div_upload" style="height:250px;width:100%;border:1px dotted" >
                     
                 </div>
                 
             </div>  
             <div class="form-section">  
-                <label for="offerte_content" class="form-label">Beschrijving van uw product idee *</label>  
-                <textarea class="form-control" id="offerte_content" rows="4" placeholder="Type here..." style="height:250px;"></textarea>  
+                <label for="offerte_content" class="form-label offerte-form-label">Beschrijving van uw product idee *</label>  
+                <textarea  id="offerte_content" class="offerte-label" rows="4" placeholder="Typ hier..." style="height:250px;"></textarea>  
             </div>  
             
             <input type="hidden" id="code" name="code" value="201224ckOgynkmTSgf7VoOqXkx9FHL">
-            <button type="submit" class="btn btn-primary" style="float:right" id="submitBtn">Submit</button>  
+            <button type="submit" class="btn btn-primary" style="float:right; font-weight: 700; background: rgb(255,128,35) !important;" id="submitBtn">Verzenden</button>  
         </form>  
     </div>  
 
